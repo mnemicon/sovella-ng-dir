@@ -1,0 +1,5 @@
+<p>display-details works!</p>
+<button (click)="onShowDetails()">Display details</button>
+<p *ngIf="!isShown">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente vel temporibus illo dolor sit placeat quia ad amet cumque facilis, alias earum corrupti ex optio repellendus maiores aperiam ut inventore?</p>
+<p *ngIf="timeStampAdded">Time: {{ getTimeStamp() }}</p>
+<p *ngFor="let timeStamp of timeStamps"></p>
